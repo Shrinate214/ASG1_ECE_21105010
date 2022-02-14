@@ -135,7 +135,7 @@ while(1):                                               #infinite loop
  Ask_User=str(input("enter Y or N:"))                   
  if (Ask_User=='Y'):                                    #data gets entered in directory if user enters Y   
   name=str(input("enter name:"))                               
-  SID=int(input("enter SID:"))
+  SID=int(input("enter Unique SID:"))
   z_dict1[str(SID)]=name                                   
  elif(Ask_User=='N'):                                                  
   break                                                 #loop breaks if N is entered  
