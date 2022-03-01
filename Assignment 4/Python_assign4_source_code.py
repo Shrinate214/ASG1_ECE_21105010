@@ -159,8 +159,8 @@ if (len(George_word) == 1):
    Barbie_word=Barbie_word[0]
    letters_in_George_word=list_letters(George_word)
    letters_in_Barbie_word=list_letters(Barbie_word)
-   if (countZ(George_word)==countZ(Barbie_word)):                 #checking if same letters are present in the words
-     if (sorted(letters_in_George_word)!=sorted(letters_in_Barbie_word)):                                      #checking if count of letters is not same
+   if (countZ(George_word)==countZ(Barbie_word)):                                                              #checking if  count of letters is not sames
+     if (sorted(letters_in_George_word)!=sorted(letters_in_Barbie_word)):                                      #checking if ame letters are present in the words
        print("ERROR! Letters of both the words are not same. Friendship is fake.")
      elif (George_word == Barbie_word):
        print("ERROR! Same word spoken. Utter a different word.")
