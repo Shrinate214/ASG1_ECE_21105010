@@ -75,17 +75,17 @@ int main(){
     Node*head=NULL;                                                   //Initialisation of a double link list
 	int no_of_family_members;
 	cout<<"Enter Number Of Family Members:";cin>>no_of_family_members;//Taking number of family members as INPUT
-	for(int j=1;j<=no_of_family_members;j++){                        //loop created to add family members details in doubly linked list
+	for(int j=1;j<=no_of_family_members;j++){                    //loop created to add family members details in doubly linked list
 		string name;
 		int age;
 		cout<<"Enter Family Member "<<j<<" Name:";
 		cin>>name;
 		cout<<"Enter Family Member "<<j<<" Age:";
 		cin>>age;
-		append(head,name,age);                                       //to append data name and age in doubly linked list
+		append(head,name,age);                              //to append data name and age in doubly linked list
 	}
 cout<<"-------------------------------------------------------------"<<endl;
-cout<<endl;                                                     // to leave a line between input and output
+cout<<endl;                                                        // to leave a line between input and output
     cout<<"Doubly Linked list create using my family members is:"<<endl;
     display_from_start(head);
 }
